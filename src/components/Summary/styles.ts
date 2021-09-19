@@ -10,6 +10,12 @@ export const Container = styled.section`
   grid-gap: 1.5rem;
   position: relative;
   transform: translateY(-50%);
+
+  @media (max-width: 720px) {
+    margin-top: 3rem;
+    transform: none;
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Box = styled.div`
