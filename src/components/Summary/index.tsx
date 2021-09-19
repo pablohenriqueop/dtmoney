@@ -55,8 +55,3 @@ export const Summary = () => {
     </Content>
   );
 };
-
-var nome = "Matheus";
-nome.replace("M", "P");
-
-//Patheus
