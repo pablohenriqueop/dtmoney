@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-type BoxProps = {
-  hightlight?: string;
-};
-
 export const Container = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
